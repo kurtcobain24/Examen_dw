@@ -1,0 +1,32 @@
+.contenedor {
+    text-align: center; /* Centra la imagen horizontalmente */
+    
+}
+
+img {
+    display: block; /* Convierte la imagen en un elemento de bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente con márgenes automáticos */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.acerca-de a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.acerca-de a:hover {
+    color: #ccc;
+}
